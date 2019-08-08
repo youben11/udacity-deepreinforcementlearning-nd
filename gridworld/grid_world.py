@@ -3,10 +3,12 @@ from random import random
 class GridWorld(object):
     UP, RIGHT, DOWN, LEFT = 0, 1, 2, 3
     ACTIONS = [UP, RIGHT, DOWN, LEFT]
-    # LEFT DOWN, LEFT UP, RIGHT UP, RIGHT DOWN
+    ACTIONS_STR = ['UP', 'RIGHT', 'DOWN', 'LEFT']
+    # 'BOTTOM_LEFT', 'TOP_LEFT', 'TOP_RIGHT', 'BOTTOM_RIGHT'
     LD, LU, RU, RD = 0, 1, 2, 3
     STATES = [LD, LU, RU]
     FINAL_STATES = [RD]
+    STATES_STR = ['BOTTOM_LEFT', 'TOP_LEFT', 'TOP_RIGHT', 'BOTTOM_RIGHT']
 
     # First index: state
     # Second index: action
@@ -90,5 +92,4 @@ class GridWorld(object):
 
     def __str__(self):
         state = self.state
-        str_states = ['LEFT_DOWN', 'LEFT_UP', 'RIGHT_UP', 'RIGHT_DOWN']
-        return "State: " + str_states[state]
+        return "State: " + self.STATES_STR[state]
