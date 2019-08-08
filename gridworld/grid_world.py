@@ -48,8 +48,12 @@ class GridWorld(object):
         RU: {LU: -1, RU: -1, RD: 10},
     }
 
-    def __init__(self, debug=False):
+    def __init__(self):
         #self._check_probs()
+        self.state = self.LD
+
+
+    def reset(self):
         self.state = self.LD
 
 
