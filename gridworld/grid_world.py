@@ -5,7 +5,7 @@ class GridWorld(object):
     ACTIONS = [UP, RIGHT, DOWN, LEFT]
     # LEFT DOWN, LEFT UP, RIGHT UP, RIGHT DOWN
     LD, LU, RU, RD = 0, 1, 2, 3
-    STATES = [LD, LU, RU, RD]
+    STATES = [LD, LU, RU]
     FINAL_STATES = [RD]
 
     # First index: state
@@ -31,12 +31,6 @@ class GridWorld(object):
             RIGHT: {LU: 0.1, RU: 0.8, RD: 0.1},
             DOWN: {LU: 0.1, RU: 0.2, RD: 0.7},
             LEFT: {LU: 0.7, RU: 0.2, RD: 0.1},
-        },
-        RD: {
-            UP: {RD: 1},
-            RIGHT: {RD: 1},
-            DOWN: {RD: 1},
-            LEFT: {RD: 1},
         },
     }
     # First index: current state
