@@ -9,3 +9,6 @@ My solution for the OpenAI Gym's Taxi-v2 task, solved the task using Sarsa, Sars
 
 ### Navigation
 My solution for the first Udacity DRLND project 'Navigation' which consists of training an agent capable of collecting yellow bananas and avoiding blue ones while navigating in a square world. The project is under navigation [here](/navigation)
+
+### Continuous Control
+My solution for the second Udacity DRLND project 'Continuous Control' which is about training a double-jointed arm to move to some target locations. The project can be found [here](/continuous_control)
