@@ -27,4 +27,4 @@ Then please follow the instructions found [here](https://github.com/udacity/deep
 
 ## Training
 
-The `model.py` already contains a model that was able to solve the problem, however, you can also tweak it and rerun the notebook to check the results. You can also update the training loop in the `Continuous_Control.ipynb` or the agent in `ddpg_agent.py`. Please check the report [here](/report.md) for more details about the algorithm used.
+The `model.py` already contains a model that was able to solve the problem, however, you can also tweak it and rerun the notebook to check the results. You can also update the training loop in the `Continuous_Control.ipynb` or the agent in `ddpg_agent.py`. Please check the report [here](./report.md) for more details about the algorithm used.
