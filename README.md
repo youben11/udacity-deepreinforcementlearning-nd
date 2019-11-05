@@ -12,3 +12,6 @@ My solution for the first Udacity DRLND project 'Navigation' which consists of t
 
 ### Continuous Control
 My solution for the second Udacity DRLND project 'Continuous Control' which is about training a double-jointed arm to move to some target locations. The project can be found [here](/continuous_control)
+
+### Collaboration and Competition
+My solution for the third and final Udacity DRLND project 'Collaboration and Competition' which is about training two agents controlling rackets to bounce a ball over a net. The project can be found [here](/collaboration_and_competition)
